@@ -8,11 +8,10 @@ public class MergeHellController {
 		kadaiB();
 	}
 
-
-		static void kadaiB() {
-			Random rand = new Random();
-		    int num = rand.nextInt(100) + 1;
-		    System.out.println(num + "が出ました");
+	static void kadaiB() {
+		Random rand = new Random();
+		int num = rand.nextInt(100) + 1;
+		System.out.println(num + "が出ました");
 
 	}
 
